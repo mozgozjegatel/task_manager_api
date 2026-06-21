@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status
 from datetime import datetime
-from task_manager_api.app.models import TaskCreate, TaskResponse, ErrorResponse
-from task_manager_api.app.storage import TaskStorage
+from app.models import TaskCreate, TaskResponse, ErrorResponse
+from app.storage import TaskStorage
 
 router = APIRouter(
     prefix="/tasks",

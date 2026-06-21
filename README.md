@@ -13,10 +13,13 @@
 - / - Возвращает приветственное сообщение и ссылки на документацию.
 - /health - Эндпоинт для мониторинга состояния сервиса
 
-## Установка
+## Установка и Запуск сервера
 
 1. Клонируйте репозиторий
 2. Установите зависимости:
    ```bash
+   git clone https://github.com/mozgozjegatel/task_manager_api.git
+   cd task_manager_api
+   python3 -m venv venv 
    pip install -r requirements.txt
    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000

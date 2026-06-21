@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from task_manager_api.app.routes import router
+from app.routes import router
 from datetime import datetime
 
 # Создание приложения с метаданными

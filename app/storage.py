@@ -1,7 +1,7 @@
 from typing import Dict, Optional, List
 from datetime import datetime
 import uuid
-from task_manager_api.app.models import TaskCreate, TaskResponse
+from app.models import TaskCreate, TaskResponse
 
 
 class TaskStorage:
